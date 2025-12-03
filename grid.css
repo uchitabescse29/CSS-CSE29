@@ -7,17 +7,25 @@
    /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
    grid-template-columns: repeat(4,1fr);
    grid-template-rows: repeat(3,1fr);
-   grid-template-areas: "header header header header" "main main. sidebar" "footer footer footer footer";
+  /* grid-template-areas: "header header header header" "main main. sidebar" "footer footer footer footer";*/
 
-
+ justify-items: center;
+ align-items: center;
+ justify-content: stretch;
+ align-items: center;
 }
 .item{
+    height: 200px;
+    width: 200px;
    
     background-color: brown;
     border: 1px solid black;
      text-align: center;
     align-content: center;
     color: white;
+    justify-content: stretch;
+ align-items: center;
+
 }
 .item1{
     grid-area: header;
