@@ -27,7 +27,7 @@
  align-items: center;
 
 }
-.item1{
+/*.item1{
     grid-area: header;
 
 }
@@ -41,4 +41,4 @@
 }
 .item4{
     grid-area: footer;
-}
+}*/
